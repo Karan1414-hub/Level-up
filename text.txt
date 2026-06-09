@@ -1,0 +1,1 @@
+node -e "const fs = require('fs'), zlib = require('zlib'); const html = \`<!DOCTYPE html>...[Your HTML Code]...\`; fs.writeFileSync('index.html', html); console.log('Project files extracted successfully.');"
